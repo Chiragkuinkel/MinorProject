@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Consult me</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- font css -->
+      <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <script>
+         function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+      </script>
+   </head>
+   <body>
+      <div class="header_section">
+         <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="what-we.html">What we do</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                     </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                     <div class="login_bt">
+                        <ul>
+                           <li><a href="login.html"><span class="user_icon"><i class="fa fa-user" aria-hidden="true"></i></span>Login</a></li>
+                           <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                        </ul>
+                     </div>
+                  </form>
+               </div>
+            </nav>
+         </div>
+         <!-- banner section start --> 
+         <div class="banner_section layout_padding">
+            <div class="container-fluid">
+               <div id="banner_slider" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <div class="banner_taital_main">
+                                 <h1 class="banner_taital">We Provide Lawyer recommendation</h1>
+                                 <p class="banner_text">We use a recommendation system that utilizes your preferences and feedback to match you with suitable lawyers hence enhancing the accessibility and efficiency of legal services.</p>
+                                 <div class="readmore_btn active"><a href="#">Read More</a></div>
+                                 <div class="started_bt"><a href="#">Contact Us</a></div>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="banner_img"><img src="images/banner-img.png"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <div class="banner_taital_main">
+                                 <h1 class="banner_taital">A user friendly experience</h1>
+                                 <p class="banner_text"> a user-friendly web app designed with simplicity in mind. Our platform ensures a seamless experience for users of all backgrounds, making it easy for anyone to navigate and utilize its features effortlessly</p>
+                                 <div class="readmore_btn active"><a href="#">Read More</a></div>
+                                 <div class="started_bt"><a href="#">Contact Us</a></div>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="banner_img2"><img src="images\pexels-buro-millennial-1438081.jpg"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <div class="banner_taital_main">
+                                 <h1 class="banner_taital">Effortless Expertise</h1>
+                                 <p class="banner_text">Discover a world of seamless connections and unparalleled expertise with our platform, "Effortless Expertise." Effortlessly navigate through a diverse pool of professionals, making it a breeze to find and connect with experts in your field</p>
+                                 <div class="readmore_btn active"><a href="#">Read More</a></div>
+                                 <div class="started_bt"><a href="#">Contact Us</a></div>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="banner_img3"><img src="images/lawyer-in-the-office-square.jpg"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#banner_slider" role="button" data-slide="prev">
+                  <i class="fa fa-arrow-left"></i>
+                  </a>
+                  <a class="carousel-control-next" href="#banner_slider" role="button" data-slide="next">
+                  <i class="fa fa-arrow-right"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <!-- banner section end -->
+      </div>
+      <!-- header section end -->
+      <!-- box section start -->
+      <div class="container">
+         <div class="box_section">
+            <div class="online_box">
+               <a href="search.html" class="online_box_left">
+                  <div class="online_box_main">
+                     <div class="box_left">
+                        <div class="right_arrow"><i class="fa fa-arrow-right"></i></div>
+                     </div>
+                     <div class="box_right">
+                        <p class="book_text">Search a</p>
+                        <h4 class="appoinment_text">Lawyer</h4>
+                     </div>
+                  </div>
+               </a>
+               <a href="login.html" class="online_box_left active">
+                  <div class="online_box_main">
+                     <div class="box_left">
+                        <div class="right_arrow"><i class="fa fa-arrow-right"></i></div>
+                     </div>
+                     <div class="box_right">
+                        <p class="book_text active">Find Similar</p>
+                        <h4 class="appoinment_text active"> Lawyer</h4>
+                     </div>
+                  </div>
+               </a>
+               <a href="login.html" class="online_box_left">
+                  <div class="online_box_main">
+                     <div class="box_left">
+                        <div class="right_arrow"><i class="fa fa-arrow-right"></i></div>
+                     </div>
+                     <div class="box_right">
+                        <p class="book_text">Search based</p>
+                        <h4 class="appoinment_text">On Requirement</h4>
+                     </div>
+                  </div>
+               </a>
+            </div>
+         </div>
+      </div>
+      <!-- box section end -->
+      <!-- services section start -->
+      <div class="services_section">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h1 class="studies_taital">SERVICE OFFERINGS</h1>
+               </div>
+            </div>
+         </div>
+         <div class="services_section_2">
+            <div id="main_slider" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="house_icon">
+                                    <img src="images/icon-1.png" class="image_1">
+                                    <img src="images/icon-4.png" class="image_2">
+                                 </div>
+                                 <h3 class="corporate_text">Search lawyers</h3>
+                                 <p class="chunks_text">If you know a lawyer, find him at our platform </p>
+                                 <div class="readmore_button"><a href="readmore1.html">Read More</a></div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box active">
+                                 <div class="house_icon">
+                                    <img src="images/icon-5.png" class="image_1">
+                                    <img src="images/icon-5.png" class="image_2">
+                                 </div>
+                                 <h3 class="corporate_text">Find similar lawyers</h3>
+                                 <p class="chunks_text">We can find you similar lawyers and you can choose</p>
+                                 <div class="readmore_button active"><a href="readmore2.html">Read More</a></div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="house_icon">
+                                    <img src="images/icon-3.png" class="image_1">
+                                    <img src="images/icon-6.png" class="image_2">
+                                 </div>
+                                 <h3 class="corporate_text">Search lawyers acc to requirements</h3>
+                                 <p class="chunks_text">We recommend specific lawyer that exactly matches your requirement </p>
+                                 <div class="readmore_button"><a href="readmore3.html">Read More</a></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  
+               </div>
+               <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+               <i class="fa fa-arrow-left"></i>
+               </a>
+               <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+               <i class="fa fa-arrow-right"></i>
+               </a>
+            </div>
+         </div>
+      </div>
+      <!-- services section end -->
+      <!-- studies section start -->
+      <!-- studies section end -->
+      <!-- about section start -->
+      <div class="about_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="about_img"><img src="images/about-img.png"></div>
+               </div>
+               <div class="col-md-6">
+                  <div class="about_text_main">
+                     <h1 class="about_taital">About Us</h1>
+                     <p class="about_text">At ConsultMe, we're transforming legal services through our innovative lawyer recommendation platform<span id="dots">...</span><span id="more"></span> Our technology matches clients with suitable attorneys based on legal needs and preferences for an optimized experience. Clients easily discover lawyers, initiate contact, manage cases and communicate seamlessly via our centralized portal. We leverage intelligence and transparency to make quality legal services more efficient, accessible and satisfactory. Our goal is to minimize the hassles associated with legal matters by serving as a trusted partner for all your needs. We aim to enhance client-lawyer relationships and set a new standard in the industry.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- about section end -->
+      <!-- testimonial section start -->
+      <div class="customer_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h1 class="customer_taital">SATISFIED CLIENT Says</h1>
+               </div>
+            </div>
+         </div>
+         <div id="my_slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="customer_section_2">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <div class="box_main">
+                                 <div class="customer_main">
+                                    <div class="customer_left">
+                                       <div class="customer_img"><img src="images/customer-img.png"></div>
+                                    </div>
+                                    <div class="customer_right">
+                                       <h3 class="customer_name">Giolio Mark <span class="quick_icon"><img src="images/quick-icon.png"></span></h3>
+                                       <p class="enim_text">anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internetanything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="customer_section_2">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <div class="box_main">
+                                 <div class="customer_main">
+                                    <div class="customer_left">
+                                       <div class="customer_img"><img src="images/customer-img.png"></div>
+                                    </div>
+                                    <div class="customer_right">
+                                       <h3 class="customer_name">DenoMark <span class="quick_icon"><img src="images/quick-icon.png"></span></h3>
+                                       <p class="enim_text">anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internetanything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="customer_section_2">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <div class="box_main">
+                                 <div class="customer_main">
+                                    <div class="customer_left">
+                                       <div class="customer_img"><img src="images/customer-img.png"></div>
+                                    </div>
+                                    <div class="customer_right">
+                                       <h3 class="customer_name">DenoMark <span class="quick_icon"><img src="images/quick-icon.png"></span></h3>
+                                       <p class="enim_text">anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internetanything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
+            <i class="fa fa-arrow-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
+            <i class="fa fa-arrow-right"></i>
+            </a>
+         </div>
+      </div>
+      <!-- testimonial section end -->
+      <!-- news section start -->
+      
+      <!-- news section end -->
+      <!-- contact section start -->
+      <div class="contact_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h1 class="contact_taital">Contact Us</h1>
+               </div>
+            </div>
+            <div class="contact_section_2">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="mail_section map_form_container">
+                        <form action="">
+                           <input type="text" class="mail_text" placeholder="Name" name="Name">
+                           <input type="text" class="mail_text" placeholder="Phone Number" name="Phone Number"> 
+                           <input type="text" class="mail_text" placeholder="Your Email" name="Your Email">
+                           <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
+                           <div class="send_bt active"><a href="#">Send Now</a></div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- contact section end -->
+      <!-- footer section start -->
+      <div class="footer_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="location_text">
+                     <ul>
+                        <li>
+                           <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="footer_logo">
+                  <a href="indexz.html">
+                     
+               </div>
+               <div class="social_icon">
+               <ul>
+               <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+               </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- footer section end -->
+      <!-- copyright section start -->
+      <div class="copyright_section">
+         <div class="container">
+            <p class="copyright_text">2020 All Rights Reserved. Design by <a href="https://html.design">Free Html Templates</a></p>
+         </div>
+      </div>
+      <!-- copyright section end -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <!-- javascript --> 
+   </body>
+</html>
